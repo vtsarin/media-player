@@ -81,8 +81,6 @@ Most media players either require installation, or upload your files to remote s
 
 ## 📸 Screenshots
 
-> **Note:** Replace the placeholder paths below with your own screenshots by adding images to `docs/screenshots/`.
-
 <div align="center">
 
 | Empty State | Video Playback |
