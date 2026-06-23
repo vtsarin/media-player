@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Upload, Film, Music, Play } from 'lucide-react';
+import { Upload, Film, Music } from 'lucide-react';
 
 export default function EmptyState({ onBrowse }) {
   return (
@@ -14,8 +14,8 @@ export default function EmptyState({ onBrowse }) {
         animate={{ y: [0, -8, 0] }}
         transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
       >
-        <div className="w-32 h-32 rounded-3xl bg-gradient-to-br from-accent/20 to-purple-600/20 flex items-center justify-center glow-accent">
-          <Play className="w-14 h-14 text-accent-light" strokeWidth={1.5} />
+        <div className="w-32 h-32 rounded-3xl flex items-center justify-center glow-accent">
+          <img src="/logo.svg" alt="LocalPlay" className="w-28 h-28 rounded-2xl" />
         </div>
         <motion.div
           className="absolute -top-2 -right-2 w-10 h-10 rounded-xl bg-gradient-to-br from-pink-500/30 to-rose-500/30 flex items-center justify-center"

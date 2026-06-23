@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Play, PanelLeftClose, PanelLeft } from 'lucide-react';
+import { PanelLeftClose, PanelLeft } from 'lucide-react';
 import { usePlayer } from '../context/PlayerContext';
 import { useKeyboardShortcuts } from '../hooks/useKeyboardShortcuts';
 import Sidebar from './Sidebar';
@@ -31,9 +31,7 @@ export default function Layout() {
             </motion.button>
 
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-lg bg-gradient-to-br from-accent to-purple-600 flex items-center justify-center">
-                <Play className="w-3 h-3 text-white ml-[1px]" fill="white" />
-              </div>
+              <img src="/logo.svg" alt="LocalPlay" className="w-6 h-6 rounded-lg" />
               <span className="text-sm font-semibold text-white/70 tracking-tight">
                 LocalPlay
               </span>
